@@ -11,6 +11,7 @@
   inputs.src-dimscmd-1_3_0.ref   = "refs/tags/1.3.0";
   inputs.src-dimscmd-1_3_0.owner = "ire4ever1190";
   inputs.src-dimscmd-1_3_0.repo  = "dimscordCommandHandler";
+  inputs.src-dimscmd-1_3_0.dir   = "";
   inputs.src-dimscmd-1_3_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
