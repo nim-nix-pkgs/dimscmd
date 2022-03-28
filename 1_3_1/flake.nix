@@ -11,8 +11,15 @@
   inputs.src-dimscmd-1_3_1.ref   = "refs/tags/1.3.1";
   inputs.src-dimscmd-1_3_1.owner = "ire4ever1190";
   inputs.src-dimscmd-1_3_1.repo  = "dimscordCommandHandler";
-  inputs.src-dimscmd-1_3_1.dir   = "";
   inputs.src-dimscmd-1_3_1.type  = "github";
+  
+  inputs."dimscord".owner = "nim-nix-pkgs";
+  inputs."dimscord".ref   = "master";
+  inputs."dimscord".repo  = "dimscord";
+  inputs."dimscord".dir   = "v1_3_0";
+  inputs."dimscord".type  = "github";
+  inputs."dimscord".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."dimscord".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

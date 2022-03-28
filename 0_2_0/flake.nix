@@ -11,7 +11,6 @@
   inputs.src-dimscmd-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-dimscmd-0_2_0.owner = "ire4ever1190";
   inputs.src-dimscmd-0_2_0.repo  = "dimscordCommandHandler";
-  inputs.src-dimscmd-0_2_0.dir   = "";
   inputs.src-dimscmd-0_2_0.type  = "github";
   
   inputs."dimscord".owner = "nim-nix-pkgs";
