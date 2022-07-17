@@ -158,22 +158,22 @@
         "dimscord": "dimscord",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-dimscmd-master": "src-dimscmd-master"
+        "src-dimscmd-1_3_2": "src-dimscmd-1_3_2"
       }
     },
-    "src-dimscmd-master": {
+    "src-dimscmd-1_3_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1657794282,
-        "narHash": "sha256-7Z7viFF+6DXhQ6KMuqEZLnr+zNtxiWELvYXISI6DxXo=",
+        "lastModified": 1657793579,
+        "narHash": "sha256-rprfpKR4cr+HDaIqd6e4LEfQHSuOp8/lnfQxlxToKlU=",
         "owner": "ire4ever1190",
         "repo": "dimscordCommandHandler",
-        "rev": "f1bde8d3c8e9f86810f42809b0482e641e72b2da",
+        "rev": "96a1f12de7c564d809a03f06fae77d655d3dcb57",
         "type": "github"
       },
       "original": {
         "owner": "ire4ever1190",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/1.3.2",
         "repo": "dimscordCommandHandler",
         "type": "github"
       }
