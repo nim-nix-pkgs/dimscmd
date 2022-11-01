@@ -19,11 +19,11 @@
       },
       "locked": {
         "dir": "v1_4_0",
-        "lastModified": 1667331444,
-        "narHash": "sha256-xu+wtfYm0/Jhyk5LJ3s4QtefSNbNu8u2FT1hYDAV4is=",
+        "lastModified": 1667336146,
+        "narHash": "sha256-sgyY8yAy1benOKjF8KN0sUf5LIA8UCL3q/BefKt0pxA=",
         "owner": "nim-nix-pkgs",
         "repo": "dimscord",
-        "rev": "c7e2d79a322cbb98132d1ca1cdfafd038d355f98",
+        "rev": "7addcb542b06b9ca4f316ba3dec08e67d1513b3a",
         "type": "github"
       },
       "original": {
